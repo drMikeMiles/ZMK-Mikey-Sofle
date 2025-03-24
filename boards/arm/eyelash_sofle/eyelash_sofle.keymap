@@ -71,8 +71,8 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "Lower";
             sensor-bindings = <&scroll_encoder>;
+            display-name = "Lower";
         };
 
         Rise {
@@ -84,8 +84,8 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
-            display-name = "Rise";
             sensor-bindings = <&scroll_encoder>;
+            display-name = "Rise";
         };
     };
 };
