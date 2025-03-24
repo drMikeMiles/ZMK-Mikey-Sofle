@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - Rise
   - Rise
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ., h: ',', s: '>'}
   - $$mdi:backspace-reverse-outline$$
   Lower:
   - {t: '`', s: '~'}
@@ -260,3 +260,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [56, 60]
+  k: {t: Custom, h: toggle}
