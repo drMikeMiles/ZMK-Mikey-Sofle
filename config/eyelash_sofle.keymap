@@ -41,9 +41,24 @@
     combos {
         compatible = "zmk,combos";
 
-        ThreethLayer {
+        ThreethLayerToggle {
             bindings = <&tog 3>;
             key-positions = <56 60>;
+        };
+
+        LayerToggle1 {
+            bindings = <&tog 1>;
+            key-positions = <56 1>;
+        };
+
+        LayerToggle2 {
+            bindings = <&tog 2>;
+            key-positions = <56 2>;
+        };
+
+        LayerToggle3 {
+            bindings = <&tog 3>;
+            key-positions = <56 3>;
         };
     };
 
@@ -97,6 +112,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
             display-name = "Custom";
         };
     };
