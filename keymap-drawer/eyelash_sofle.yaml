@@ -263,3 +263,9 @@ layers:
 combos:
 - p: [56, 60]
   k: {t: Custom, h: toggle}
+- p: [56, 1]
+  k: {t: Lower, h: toggle}
+- p: [56, 2]
+  k: {t: Rise, h: toggle}
+- p: [56, 3]
+  k: {t: Custom, h: toggle}
