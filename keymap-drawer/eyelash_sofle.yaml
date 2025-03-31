@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - Rise
   - Rise
-  - {t: Sft+KP DOT, h: /}
+  - {t: Sft+/, h: /, s: 'Sft+?'}
   - $$mdi:backspace-reverse-outline$$
   Lower:
   - {t: '`', s: '~'}
