@@ -6,9 +6,9 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-      # - name: m165437 #new entry
-      # url-base: https://github.com/M165437 #new entry
-    #- name: gpeye                         #ForRightSide
+    # - name: m165437 #new entry
+    #  url-base: https://github.com/M165437 #new entry
+    # - name: gpeye                         #ForRightSide
     #  url-base: https://github.com/GPeye  #ForRightSide
     - name: drMikeMiles                         #Mikey
       url-base: https://github.com/drMikeMiles  #Mikey
@@ -22,7 +22,7 @@ manifest:
    # - name: hammerbeam-slideshow          #ForRightSide
    #   remote: gpeye                       #ForRightSide
    #   revision: main                      #ForRightSide
-    - name: shield                         #Mikey
+    - name: Shield                         #Mikey
       remote: drMikeMiles                  #Mikey
       revision: main                       #Mikey
     - name: zmk
