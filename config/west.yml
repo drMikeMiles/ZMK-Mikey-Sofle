@@ -8,21 +8,28 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: drMikeMiles                        #Gem
       url-base: https://github.com/drMikeMiles #Gem
+##############################################################
     - name: gpeye                          #ForRightSide
       url-base: https://github.com/GPeye   #ForRightSide
+##############################################################
   projects:
+##############################################################
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
+##############################################################
     - name: Shield                         #Gem
       remote: drMikeMiles                  #Gem
       revision: main                       #Gem
+##############################################################
     - name: hammerbeam-slideshow          #ForRightSide
       remote: gpeye                       #ForRightSide
       revision: main                      #ForRightSide
+##############################################################
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+##############################################################
   self:
     path: config
