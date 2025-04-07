@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: m165437 #new entry
       url-base: https://github.com/M165437 #new entry
+    - name: gpeye                         #ForRightSide
+      url-base: https://github.com/GPeye  #ForRightSide
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -15,6 +17,9 @@ manifest:
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
       revision: main #new entry
+    - name: hammerbeam-slideshow          #ForRightSide
+      remote: gpeye                       #ForRightSide
+      revision: main                      #ForRightSide
     - name: zmk
       remote: zmkfirmware
       revision: main
