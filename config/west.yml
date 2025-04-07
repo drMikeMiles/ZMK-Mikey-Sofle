@@ -10,7 +10,7 @@ manifest:
       url-base: https://github.com/M165437 #Gem
     # - name: gpeye                         #ForRightSide
     #  url-base: https://github.com/GPeye   #ForRightSide
-    #- name: drMikeMiles                         #Mikey
+    # - name: drMikeMiles                         #Mikey
     #  url-base: https://github.com/drMikeMiles  #Mikey
   projects:
     - name: eyelash_sofle
