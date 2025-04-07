@@ -6,12 +6,10 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-     - name: m165437                       #Gem
+    - name: m165437                        #Gem
       url-base: https://github.com/M165437 #Gem
-    # - name: gpeye                         #ForRightSide
-    #  url-base: https://github.com/GPeye   #ForRightSide
-    # - name: drMikeMiles                         #Mikey
-    #  url-base: https://github.com/drMikeMiles  #Mikey
+    - name: gpeye                          #ForRightSide
+      url-base: https://github.com/GPeye   #ForRightSide
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -19,9 +17,9 @@ manifest:
     - name: nice-view-gem                  #Gem
       remote: m165437                      #Gem
       revision: main                       #Gem
-   # - name: hammerbeam-slideshow          #ForRightSide
-   #   remote: gpeye                       #ForRightSide
-   #   revision: main                      #ForRightSide
+    - name: hammerbeam-slideshow          #ForRightSide
+      remote: gpeye                       #ForRightSide
+      revision: main                      #ForRightSide
     - name: zmk
       remote: zmkfirmware
       revision: main
