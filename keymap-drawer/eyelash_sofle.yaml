@@ -163,7 +163,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PREVIOUS
+  - $$mdi:skip-previous$$
   - F12
   - '4'
   - '5'
@@ -176,7 +176,7 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - NEXT
+  - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
