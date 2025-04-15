@@ -9,9 +9,6 @@ manifest:
     - name: drMikeMiles                        #Gem
       url-base: https://github.com/drMikeMiles #Gem
 ##############################################################
-    - name: gpeye                          #ForRightSide
-      url-base: https://github.com/GPeye   #ForRightSide
-##############################################################
   projects:
 ##############################################################
     - name: eyelash_sofle
@@ -21,10 +18,6 @@ manifest:
     - name: Shield                         #Gem
       remote: drMikeMiles                  #Gem
       revision: main                       #Gem
-##############################################################
-    - name: hammerbeam-slideshow          #ForRightSide
-      remote: gpeye                       #ForRightSide
-      revision: main                      #ForRightSide
 ##############################################################
     - name: zmk
       remote: zmkfirmware
