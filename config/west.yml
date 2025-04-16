@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: drMikeMiles                        #Gem
       url-base: https://github.com/drMikeMiles #Gem
+    - name: mctechnology17                        #LunaModify
+      url-base: https://github.com/mctechnology17 #LunaModify
 ##############################################################
   projects:
 ##############################################################
@@ -18,6 +20,10 @@ manifest:
     - name: Shield                         #Gem
       remote: drMikeMiles                  #Gem
       revision: main                       #Gem
+##############################################################
+    - name: zmk-nice-oled                  #LunaModify
+      remote: mctechnology17               #LunaModify
+      revision: main                       #LunaModify
 ##############################################################
     - name: zmk
       remote: zmkfirmware
