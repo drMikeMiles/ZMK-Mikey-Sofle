@@ -9,9 +9,10 @@ include:
     shield: nice_epaper
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
-  - board: eyelash_sofle_dongle
+  - board: xiao_ble_sense
     shield: eyelash_sofle_dongle
-
+  - board: xiao_ble_sense
+    shield: settings_reset
 
   - board: eyelash_sofle_left
     shield: settings_reset
