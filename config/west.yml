@@ -6,29 +6,18 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: drMikeMiles                        #Gem
-      url-base: https://github.com/drMikeMiles #Gem
-#    - name: mctechnology17                        #LunaModify
-#      url-base: https://github.com/mctechnology17 #LunaModify
-##############################################################
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
   projects:
-##############################################################
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
-##############################################################
-    - name: Shield                         #Gem
-      remote: drMikeMiles                  #Gem
-      revision: main                       #Gem
-##############################################################
- #   - name: zmk-nice-oled                  #LunaModify
- #     remote: mctechnology17               #LunaModify
- #     revision: main                       #LunaModify
-##############################################################
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-##############################################################
   self:
     path: config
